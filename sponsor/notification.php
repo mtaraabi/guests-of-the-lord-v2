@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Guests of The Lord</title>
+    <meta content="IE=edge" http-equiv="x-ua-compatible">
+    <meta content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <!-- Icons -->
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" media="all" rel="stylesheet" type="text/css">
+    <!-- Styles -->
+    <link href="css/keyframes.css" rel="stylesheet" type="text/css">
+    <link href="css/materialize.min.css" rel="stylesheet" type="text/css">
+    <link href="css/swiper.css" rel="stylesheet" type="text/css">
+    <link href="css/swipebox.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <div class="m-scene" id="main"> <!-- Main Container -->
+
+      <!-- Left Sidebar -->
+      <ul id="slide-out-left" class="side-nav collapsible">
+        <li>
+          <div class="sidenav-header primary-color">
+
+            <div class="nav-avatar">
+              <img class="circle avatar" src="img/user.jpg" alt="">
+              <div class="avatar-body">
+                <h3>"User Name"</h3>
+                <p>"Motawaf"</p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <li><a href="index.html" class="no-child"><i class="ion-android-home"></i> Home</a></li>
+          <li><a href="request.html" class="no-child"><i class="ion-ios-chatboxes"></i> Requests</a></li>
+          <li><a href="send.php" class="no-child"><i class="ion-android-send"></i> Send a Notification</a></li>
+          <li><a href="find.html" class="no-child"><i class="ion-android-map"></i> Find a Pligrim</a></li>
+          <li><a href="list.php" class="no-child"><i class="ion-android-list"></i> Pilgrims List</a></li>
+          <li><a href="group.php" class="no-child"><i class="ion-ios-list-outline"></i> Sponsor Group</a></li>
+          <li><a href="user.php" class="no-child"><i class="ion-android-person"></i> User Info</a></li>
+          <li><a href="contact.html" class="no-child"><i class="ion-android-map"></i> Contact</a></li>
+       </li>
+
+      </ul>
+      <!-- End of Sidebars -->
+
+      <!-- Page Content -->
+      <div id="content" class="page">
+
+        <!-- Simple Modal Structure -->
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>A bunch of text</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+          </div>
+        </div>
+
+        <!-- Modal Structure Fixed Footer -->
+        <div id="modal2" class="modal modal-fixed-footer">
+          <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. "What's happened to me?" he thought. It wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+          </div>
+        </div>
+
+        <!-- Modal Structure Bottom Sheet -->
+        <div id="modal3" class="modal bottom-sheet">
+          <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>A bunch of text</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+          </div>
+        </div>
+
+        <!-- Toolbar -->
+        <div id="toolbar" class="primary-color">
+          <div class="open-left" id="open-left" data-activates="slide-out-left">
+            <i class="ion-android-menu"></i>
+          </div>
+          <span class="title">Notification</span>
+          <div class="open-right" id="open-right" data-activates="slide-out">
+            <i class="ion-android-person"></i>
+          </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="animated fadeinup p-20">
+          <div class="notification notification-success">
+            <a class="close-notification no-smoothState"><i class="ion-android-close"></i></a>
+            <p>Avoid Starting a Fire</p>
+            <span>Dear Haj please aviod using to ...  </span>
+          </div>
+
+          <div class="notification notification-info">
+            <a class="close-notification no-smoothState"><i class="ion-android-close"></i></a>
+            <p>Avoid Starting a Fire</p>
+            <span>Dear Haj please aviod using to ...  </span>
+          </div>
+
+          <div class="notification notification-warning">
+            <a class="close-notification no-smoothState"><i class="ion-android-close"></i></a>
+            <p>Avoid Starting a Fire</p>
+            <span>Dear Haj please aviod using to ...  </span>
+          </div>
+
+          <div class="notification notification-danger">
+            <a class="close-notification no-smoothState"><i class="ion-android-close"></i></a>
+            <p>Avoid Starting a Fire</p>
+            <span>Dear Haj please aviod using to ...  </span>
+          </div>
+
+
+
+        </div> <!-- End of Main Contents -->
+
+
+
+
+      </div> <!-- End of Page Content -->
+
+    </div> <!-- End of Page Container -->
+
+
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script src="js/jquery.swipebox.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/masonry.min.js"></script>
+    <script src="js/chart.min.js"></script>
+    <script src="js/functions.js"></script>
+  </body>
+</html>

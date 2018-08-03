@@ -1,0 +1,41 @@
+small.small-number{
+  font-size: 12px;
+  color: #FF4081;
+}
+
+.row .col.s6 {
+    width: 45%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+}
+.contain {
+  position: relative;
+   width: 100%;
+}
+h6 {
+   position: absolute;
+   top: 70%;
+   left:25%;
+   width: 100%;
+}
+.alert{
+  width: 80%
+  text-align: center;
+  color:#fff;
+  padding: 10px;
+  background: #79c879;
+  margin-bottom: 10px;
+  display: none;
+}
+
+.main-features{
+  
+  padding-left: 10px;
+}
+.margin-up-20-p{
+  margin-top: 35px;
+}
+.margin-up-40-p{
+  margin-top: 70px;
+}
